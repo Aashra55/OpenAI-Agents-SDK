@@ -2,12 +2,12 @@ from agents import Agent, Runner
 from config import config
 
 physics_expert = Agent(
-    name="Mathematician",
+    name="Physicist",
     instructions="You are good at Physics",
 )
 
 maths_expert = Agent(
-    name="Physicist",
+    name="Mathematician",
     instructions="You are good at maths",
 )
 
